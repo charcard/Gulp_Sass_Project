@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    background-image: url("22.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.login {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, .13);
+    box-shadow: -3px 2px 48px 12px rgba(0,0,0,0.35);
+    padding: 3rem;
+    border-radius: 5px;
+    .logintitle {
+        text-shadow: 2px 2px 2px rgba(195, 154, 150, 1);
+        margin-top: 4rem;
+    }
+    input {
+        color: white;
+        text-shadow: 2px 2px 2px rgba(195, 154, 150, 1);
+        font-size: 16px;
+        background-color: transparent;
+        width: 100%;
+        margin-bottom: 20px;
+        border: none;
+        border-bottom: 3px solid white;
+        padding: 1rem;
+        outline: none;
+    }
+    input::placeholder {
+        color: white;
+        text-shadow: 2px 2px 2px rgba(195, 154, 150, 1);
+        font-size: 15px;
+    }
+    button {
+        background-color: purple;
+        color: white;
+        width: 100%;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        border: none;
+        padding: 1rem;
+        border-radius: 50px;
+        cursor: pointer;
+        padding-bottom: 1.9rem;
+        margin-top: 1rem;
+    }
+    .message{
+        margin-top: 4rem;
+    }
+    span{
+        font-weight: bolder;
+        cursor: pointer;
+    }
+}
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, .13);
+    box-shadow: -3px 2px 48px 12px rgba(0,0,0,0.75);
+    padding: 3rem;
+    .title {
+        font-size: 30px;
+        color: white;
+        text-shadow: 2px 2px 2px rgba(195, 154, 150, 1);
+    }
+    .user-info {
+        font-size: 25px;
+        color: white;
+        text-shadow: 2px 2px 2px rgba(195, 154, 150, 1);
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+    .login {
+        width: 80%;
+    }    
+}
